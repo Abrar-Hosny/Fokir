@@ -131,8 +131,9 @@ float: left;
 } */
 
 .about-section .about-content {
-    padding: 50px 0;
+    padding: 50px 20px;
     margin: 10px 80px; 
+
 }
 
 .about-section .about-content span span{
@@ -224,11 +225,35 @@ display: inline-block;
 
 
 
+.services-section{
+    background-color: #F1F1F1;
+    text-align: center;
 
 
+}
+
+.services-section h3{
+font-family: "Source Sans Pro", sans-serif;
+font-size: 40px;
+font-weight: 800;
+font-size: normal;
+padding: 30px;
+}
 
 
+.services-section .services  {
+  
+    padding: 20px 20px;
+    background-color: yellow;
+}
 
+.services-section .services .service {
+    float: left;
+    margin: 20px;
+    width: 20%;
+    background-color: white;
+    padding: 40px 10px;
+}
 
 
 
