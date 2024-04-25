@@ -30,6 +30,8 @@ a{
 
 }
 
+
+
 .transparent-background{
     position: absolute;
     top: 0;
@@ -85,8 +87,8 @@ line-height: 2;
     color: white;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 26px;
-    font-weight: 400px;
     line-height: 2;
+    font-weight: 300;
     }
 
 .main-section .welcome-page h1{
@@ -106,42 +108,51 @@ top: 35%;
 left: 34%;
 
 }
-
-.about-section {
-    height:100vh;
-    width: 100%;
-    overflow: auto;
+.about-section{
+    margin: 30px 0 60px;
 }
+
+
+
 
 
 .about-section .rigth-content {
+   margin-left:40px ;
     position: relative;
-    right: 100px;
+    left: 100px;
+   width: 58%;
+
 }
 
+
+.about-section .about-sec{
+    float: left;
+}
 .about-section .border{
-width: 388px;
-height: 450px;
-border: 9px solid #555555;
-border-radius: 6px;
-margin-left:50px;
-position: relative;
-top: 80px;
-left: 100px;
-float: left;
-}
-
-.about-section .about-image{
-    width: 400px;
-    height: 480px;
-    background-image: url("../images/about.jpg");
-    background-size: cover;
+    width: 340px;
+    height: 420px;
+    border: 7px solid #555555;
+    border-radius: 6px;
+    margin-left:50px;
     position: relative;
-     top:100px;
-     right:280px;
-border-radius: 5px;
-float: left;
-}
+    top: 80px;
+    left: 100px;
+    
+    }
+    
+    .about-section .left-content .about-image{
+        width: 358px;
+        height: 430px;
+        background-image: url("../images/about.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    border-radius: 6px;
+    
+    }
+
+    
 
 
 /* 
@@ -150,7 +161,7 @@ float: left;
 } */
 
 .about-section .about-content {
-    padding: 50px 20px;
+    padding: 40px 20px;
     margin: 10px 80px; 
 
 }
@@ -180,7 +191,7 @@ float: left;
     font-size:16px ;
     font-weight: 400;
     font-style: normal;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 
@@ -189,7 +200,8 @@ float: left;
 
 .about-section .horizontal-line{
 border: 1px #999999 dashed;
-margin: 5px;
+margin: 15px 0 ;
+line-height: 2;
 }
 
 .about-section .info span{
@@ -211,32 +223,32 @@ margin: 5px;
     
 }
 
-.about-section .rigth-content .about-content .info div{
-    line-height: 3;
-display: inline-block;
-/* margin-right: 20px; */
+
+.about-section .rigth-content .about-content .info .info-f{
+    float: left;
+    margin-right: 10%;
 }
 
 
 
 
-.about-section .rigth-content  .buttons {
-    position: absolute;
-    bottom: 2;
-    right:20% ;
+.about-section .rigth-content  .buttons button:hover {
+background-color: red;
+cursor: pointer;
    
 }
 
 
 
 .about-section .rigth-content  button{
-    padding: 15px;
+    margin: 20px 5px 50px;
+    padding:10px 23px;
     font-family:"Roboto", sans-serif ;
     font-size: 16px;
     font-weight: 400;
     color: white ;
     background-color: #FF305B;
-    border-radius: 7px;
+    border-radius: 5px;
     border-color: transparent;
    
    
