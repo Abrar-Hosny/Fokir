@@ -12,6 +12,17 @@ padding: 0;
 
 }
 
+.main-section .transparent-background .header .navbar .home{
+    color:#FF305B ;
+}
+a{
+    text-decoration: none;
+}
+
+.main-section .transparent-background .header .navbar a:hover{
+    color: #FF305B;
+
+}
 .main-section .header{
     margin: 20px 80px ;
     padding: 0 50px;
@@ -19,11 +30,20 @@ padding: 0;
 
 }
 
+.transparent-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 .main-section .header  .logo{
     color: white;
     color: #FF305B ;
     font-family: "Roboto";
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -33,13 +53,11 @@ margin-right:20px ;
 
 .main-section .header .navbar {
     float: right;
-    
-
 }
 
 .main-section .header .navbar a{
     margin-right: 6px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -75,7 +93,8 @@ line-height: 2;
     color: #FF305B ;
     font-size: 70px;
     font-family: "Source Sans Pro", sans-serif;
-    
+    font-weight: 700;
+    font-style: normal;
 
 }
 
@@ -83,8 +102,8 @@ line-height: 2;
     text-align: center;
 padding: 20px;
 position: absolute;
-top: 40%;
-left: 35%;
+top: 35%;
+left: 34%;
 
 }
 
